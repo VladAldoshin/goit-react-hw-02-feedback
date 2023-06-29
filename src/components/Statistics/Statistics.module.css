@@ -1,0 +1,43 @@
+ ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  li.good {
+    color: green;
+  }
+  
+  li.neutral {
+    color: grey;
+  }
+  
+  li.bad {
+    color: red;
+  }
+  
+  li.total {
+    color: black;
+    
+  }
+
+  .positive {
+    font-weight: 700;
+    font-size: 30px;
+    color: green;
+  }
+  
+  .positive span {
+    font-size: 25px;
+    font-weight: 700;
+  }
